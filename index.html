@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- FontAwesome 6.2.0 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Animate CSS -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="position-absolute top-0 start-0 z-1 w-100">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand fs-2" href="#">
+                    <i class="fa-solid fa-dice-d20 text-success"></i>
+                    <span class="text-light">CyberPortfolio</span>
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item px-2 py-1 mx-2 active">
+                        <a class="nav-link text-light" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item px-2 py-1 mx-2">
+                        <a class="nav-link text-light" href="#">About</a>
+                      </li>
+                      <li class="nav-item px-2 py-1 mx-2">
+                        <a class="nav-link text-light" href="#">Service</a>
+                      </li>
+                      <li class="nav-item px-2 py-1 mx-2">
+                        <a href="#" class= "nav-link text-light" aria-disabled="true">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+
+    <!-- CAROUSEL -->
+    <section class="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <!-- Nút chuyển slide -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <!-- Nơi chứa nội dung của slide -->
+        <div class="carousel-inner">
+          <!-- ITEM 1 -->
+          <div class="carousel-item active">
+            <img src="./image/finland.jpg" class="d-block w-100 vh-100" alt="...">
+            <div class="carousel_content">
+              <img src="./image/01-3.jpg" class="wow animate__animated animate__fadeInUp" alt="">
+              <h2 class="heading_title wow animate__animated animate__fadeInUp animate__delay-1s">Our goals. Our mission.</h2>
+              <p class="sub_heading_title wow animate__animated animate__fadeInUp animate__delay-2s">How we help other companies to grow.</p>
+            </div>
+          </div>
+          <!-- ITEM 2 -->
+          <div class="carousel-item">
+            <img src="./image/mountains.jpg" class="d-block w-100 vh-100" alt="...">
+            <div class="carousel_content">
+              <img src="./image/02-3.jpg" class="wow animate__animated animate__fadeInUp" alt="">
+              <h2 class="heading_title wow animate__animated animate__fadeInUp animate__delay-1s">Our goals. Our mission.</h2>
+              <p class="sub_heading_title wow animate__animated animate__fadeInUp animate__delay-2s">How we help other companies to grow.</p>
+            </div>
+          </div>
+          <!-- ITEM 3 -->
+          <div class="carousel-item">
+            <img src="./image/mountains-1.jpg" class="d-block w-100 vh-100" alt="...">
+            <div class="carousel_content">
+              <img src="./image/03-3.jpg" class="wow animate__animated animate__fadeInUp" alt="">
+              <h2 class="heading_title wow animate__animated animate__fadeInUp animate__delay-1s">Our goals. Our mission.</h2>
+              <p class="sub_heading_title wow animate__animated animate__fadeInUp animate__delay-2s">How we help other companies to grow.</p>
+            </div>
+          </div>
+        </div>
+                                                <!-- Mũi tên đưa slide về trái -->
+
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button> -->
+                                                <!-- Mũi tên đưa slide về phải -->
+
+        <!-- <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button> -->
+      </div>
+    </section>
+
+    <!-- PROJECT -->
+    <section class="project py-5">
+      <div class="container">
+        <!-- Tiêu đề -->
+        <div class="title text-center">
+          <h2 class="fw-bold">Love What I Do</h2>
+          <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus <br>nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.Vestibulum ante ipsum primis in faucibus <br> orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc</p>
+        </div>
+
+        <!-- Content -->
+        <div class="content">'
+          <!-- BUTTON -->
+          <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+            <button class="nav-link border border-dark text-dark mx-2 active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All Projects</button>
+            </li>
+            <li class="nav-item" role="presentation">
+            <button class="nav-link border border-dark text-dark mx-2" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Illustration</button>
+            </li>
+            <li class="nav-item" role="presentation">
+            <button class="nav-link border border-dark text-dark mx-2" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Photography</button>
+            </li>
+            <li class="nav-item" role="presentation">
+            <button class="nav-link border border-dark text-dark mx-2" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false" >Website</button>
+            </li>
+          </ul>
+
+          <!-- LIST PROJECT -->
+          <div class="tab-content" id="pills-tabContent">
+            <!-- All project -->
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+              <!-- ROW 1 -->
+              <div class="row gx-5">
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div class="project_item rounded-4 shadow-sm">
+                    <img src="./image/g1.jpg" class="w-100 rounded-top-4" alt="">
+                    <div class="project_text px-3 pt-2 pb-4 text-center">
+                      <h3>Apologetic robot holding flowers</h3>
+                      <p>Branding</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div class="project_item rounded-4 shadow-sm">
+                    <img src="./image/g2.jpg" class="w-100 rounded-top-4" alt="">
+                    <div class="project_text px-3 pt-2 pb-4 text-center">
+                      <h3>Woman walking her small dog</h3>
+                      <p>Illustrations</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div class="project_item rounded-4 shadow-sm">
+                    <img src="./image/g3.jpg" class="w-100 rounded-top-4" alt="">
+                    <div class="project_text px-3 pt-2 pb-4 text-center">
+                      <h3>Oil bottle branding</h3>
+                      <p>Branding</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ROW 2 -->
+              <div class="row gx-5 mt-4">
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div class="project_item rounded-4 shadow-sm">
+                    <img src="./image/g4.jpg" class="w-100 rounded-top-4" alt="">
+                    <div class="project_text px-3 pt-2 pb-4 text-center">
+                      <h3>Smiling Woman</h3>
+                      <p>Illustrations</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div class="project_item rounded-4 shadow-sm">
+                    <img src="./image/g5.jpg" class="w-100 rounded-top-4" alt="">
+                    <div class="project_text px-3 pt-2 pb-4 text-center">
+                      <h3>Drink can design</h3>
+                      <p>Packaging</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div class="project_item rounded-4 shadow-sm">
+                    <img src="./image/g6.jpg" class="w-100 rounded-top-4" alt="">
+                    <div class="project_text px-3 pt-2 pb-4 text-center">
+                      <h3>I love you hand gesture</h3>
+                      <p>Illustrations</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+
+            <!-- Illustration -->
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+              <!-- ROW 1 -->
+              <div class="row gx-5">
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div class="project_item rounded-4 shadow-sm">
+                    <img src="./image/g1.jpg" class="w-100 rounded-top-4" alt="">
+                    <div class="project_text px-3 pt-2 pb-4 text-center">
+                      <h3>Apologetic robot holding flowers</h3>
+                      <p>Branding</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div class="project_item rounded-4 shadow-sm">
+                    <img src="./image/g2.jpg" class="w-100 rounded-top-4" alt="">
+                    <div class="project_text px-3 pt-2 pb-4 text-center">
+                      <h3>Woman walking her small dog</h3>
+                      <p>Illustrations</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div class="project_item rounded-4 shadow-sm">
+                    <img src="./image/g3.jpg" class="w-100 rounded-top-4" alt="">
+                    <div class="project_text px-3 pt-2 pb-4 text-center">
+                      <h3>Oil bottle branding</h3>
+                      <p>Branding</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+
+            <!-- Photography -->
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                <!-- ROW 1 -->
+              <div class="row gx-5">
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div class="project_item rounded-4 shadow-sm">
+                    <img src="./image/g3.jpg" class="w-100 rounded-top-4" alt="">
+                    <div class="project_text px-3 pt-2 pb-4 text-center">
+                      <h3>Oil bottle branding</h3>
+                      <p>Branding</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div class="project_item rounded-4 shadow-sm">
+                    <img src="./image/g4.jpg" class="w-100 rounded-top-4" alt="">
+                    <div class="project_text px-3 pt-2 pb-4 text-center">
+                      <h3>Smiling Woman</h3>
+                      <p>Illustrations</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Website -->
+            <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+                <!-- ROW 1 -->
+              <div class="row gx-5">
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div class="project_item rounded-4 shadow-sm">
+                    <img src="./image/g6.jpg" class="w-100 rounded-top-4" alt="">
+                    <div class="project_text px-3 pt-2 pb-4 text-center">
+                      <h3>I love you hand gesture</h3>
+                      <p>Illustrations</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- AVAILABLE -->
+    <section class="available py-5">
+      <div class="container position-relative z-2">
+        <div class="available_title py-3 text-white text-center ">
+          <h2>I'm Available For Hire</h2>
+          <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus <br> nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
+        </div>
+
+        <div class="available_content">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-3 py-5">
+              <div class="col">
+                <div class="available_item text-white text-center rounded-4 p-5">
+                <i class="fa-solid fa-paintbrush fs-1 text-success"></i>
+                <h3 class="my-4 fs-5 fw-bold">Design</h3>
+                <p class="fs-6">Vestibulum ante ipsum primis in <br> faucibus orci luctus et ultrices posuere <br> cubilia Curae; Nulla mollis dapibus <br> nunc</p>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="available_item text-white text-center rounded-4 p-5">
+                <i class="fa-solid fa-shekel-sign fs-1 text-success"></i>
+                <h3 class="my-4 fs-5 fw-bold">Marketing</h3>
+                <p class="fs-6">Vestibulum ante ipsum primis in <br> faucibus orci luctus et ultrices posuere <br> cubilia Curae; Nulla mollis dapibus <br> nunc</p>
+                </div>
+              </div>
+              
+              <div class="col">
+                <div class="available_item text-white text-center rounded-4 p-5">
+                <i class="fa-solid fa-camera fs-1 text-success"></i>
+                <h3 class="my-4 fs-5 fw-bold">Photography</h3>
+                <p class="fs-6">Vestibulum ante ipsum primis in <br> faucibus orci luctus et ultrices posuere <br> cubilia Curae; Nulla mollis dapibus <br> nunc</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="award"></section>
+
+    <footer></footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- WOW JS -->
+
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+
+    <script>
+      new Wow().init()
+    </script>
+  </body>
+</html>
